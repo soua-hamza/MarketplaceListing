@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '15.0'
+
+target 'MarketplaceListing' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MarketplaceListing
+  pod 'SwiftGen', '6.6.2'
+  pod 'SwiftLint', '0.57.1'
+  pod 'SwiftFormat/CLI', '0.55.3'
+
+  target 'MarketplaceListingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MarketplaceListingUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,5 @@
+# file options
+--exclude Pods,ecommerce/Generated,Utils,ecommerce/Utils,ecommerceTests/GeneratedMocks.swift
+
+# rules
+--disable trailingCommas

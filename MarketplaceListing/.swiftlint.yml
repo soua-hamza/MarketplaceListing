@@ -1,0 +1,52 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  - Utils
+  - ecommerce/Utils
+  - ecommerceTests/GeneratedMocks.swift
+
+disabled_rules: # rule identifiers turned on by default to exclude from running
+  - type_body_length
+  - cyclomatic_complexity
+  - opening_brace
+  - multiple_closures_with_trailing_closure
+  - nesting
+  - function_parameter_count
+  - redundant_discardable_let
+
+analyzer_rules: # Rules run by `swiftlint analyze`
+
+
+line_length:
+  warning: 300
+  error: 500
+file_length:
+  warning: 1000
+  error: 1500
+function_body_length:
+    warning: 200
+    error: 400
+
+identifier_name:
+  max_length:
+    warning: 50
+    error: 70
+  excluded:
+      - id
+      - to
+      - by
+      - xl
+      - at
+      - in
+      - h1
+      - vo
+      - on
+      - cc
+      - CC
+      - km
+
+type_name:
+  max_length:
+    warning: 50
+    error: 70
+  excluded:
+      - CC
