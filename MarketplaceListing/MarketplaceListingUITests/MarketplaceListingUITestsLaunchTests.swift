@@ -8,7 +8,6 @@
 import XCTest
 
 final class MarketplaceListingUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }

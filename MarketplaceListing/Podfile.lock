@@ -1,24 +1,38 @@
 PODS:
+  - Alamofire (5.10.2)
+  - RxBlocking (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxSwift (6.8.0)
+  - RxTest (6.8.0):
+    - RxSwift (= 6.8.0)
   - SwiftFormat/CLI (0.55.3)
-  - SwiftGen (6.6.2)
   - SwiftLint (0.57.1)
 
 DEPENDENCIES:
+  - Alamofire (= 5.10.2)
+  - RxBlocking (= 6.8.0)
+  - RxSwift (= 6.8.0)
+  - RxTest (= 6.8.0)
   - SwiftFormat/CLI (= 0.55.3)
-  - SwiftGen (= 6.6.2)
   - SwiftLint (= 0.57.1)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - RxBlocking
+    - RxSwift
+    - RxTest
     - SwiftFormat
-    - SwiftGen
     - SwiftLint
 
 SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  RxBlocking: a8b634fba6850913bc3df40bb73fd08b2dbf0f01
+  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
+  RxTest: d0fa1ec82feb41efa826a59173ec65eafbbe4aaf
   SwiftFormat: 2f3558ca02842dcd3fd970360d2d4054bd21624a
-  SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
   SwiftLint: 92196976e597b9afec5dbe374810103e6c1d9d7c
 
-PODFILE CHECKSUM: 472e18803c65e10e1e697a62fe1f01f9f169ecaa
+PODFILE CHECKSUM: a17ba61d95e78bb69549ca90603da17274b47556
 
 COCOAPODS: 1.16.2

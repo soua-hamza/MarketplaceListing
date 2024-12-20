@@ -6,13 +6,17 @@ target 'MarketplaceListing' do
   use_frameworks!
 
   # Pods for MarketplaceListing
-  pod 'SwiftGen', '6.6.2'
   pod 'SwiftLint', '0.57.1'
   pod 'SwiftFormat/CLI', '0.55.3'
-
+  pod 'RxSwift', '6.8.0'
+#  pod 'RxCocoa', '6.8.0'
+  pod 'Alamofire', '5.10.2'
+  
   target 'MarketplaceListingTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxBlocking', '6.8.0'
+    pod 'RxTest', '6.8.0'
   end
 
   target 'MarketplaceListingUITests' do

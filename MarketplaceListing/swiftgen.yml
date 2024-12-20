@@ -5,7 +5,7 @@
 ##   Those two top-level keys are optional and default to "." (the directory of the config file).
  
  input_dir: .
- output_dir: IbanRecognizer/Generated/
+ output_dir: MarketplaceListing/Generated/
 
 
 ## Generate constants for your localized strings.
@@ -13,7 +13,7 @@
 ##   SwiftGen will parse all `.strings` files found in that folder.
  strings:
    inputs:
-     - Base.lproj
+     - MarketplaceListing/Localizable.xcstrings
    outputs:
      - templateName: structured-swift5
        output: Strings+Generated.swift
